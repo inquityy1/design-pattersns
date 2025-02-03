@@ -1,7 +1,7 @@
 function foo(bar: string) {
-    return 'Hello, ' + bar
+    return 'Hello, ' + bar;
 }
 
-let baz = 'ABC'
+let baz = 'ABC';
 
-console.log(foo(baz))
+console.log(foo(baz));
