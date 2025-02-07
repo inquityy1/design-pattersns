@@ -1,8 +1,8 @@
-import Animal from './animal'
+import Animal from './animal';
 
 export class Cat extends Animal {
     constructor(name: string, age: number) {
-        super(name, age)
+        super(name, age);
     }
 }
 

@@ -1,7 +1,7 @@
-function foo(bar: string) {
-    return 'Hello, ' + bar;
-}
+import { Cat, Dog } from './animals';
 
-let baz = 'ABC';
+const cat = new Cat('Whiskers', 3);
+console.log(cat.name);
 
-console.log(foo(baz));
+const dog = new Dog('Fido', 4);
+console.log(dog.name);
